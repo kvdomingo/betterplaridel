@@ -30,7 +30,7 @@ This guide helps content contributors create clear, helpful, and accessible cont
 ### Service Page Template
 
 ```markdown
-# [Service Name] — [Your City Name]
+# [Service Name] — [Municipality of Plaridel]
 
 Brief, clear description of what this service is and who it's for.
 
@@ -139,7 +139,7 @@ Use tables for structured information:
 ```markdown
 | Service         | Location           | Hours            | Contact        |
 | --------------- | ------------------ | ---------------- | -------------- |
-| Health Check-up | City Health Office | Mon-Fri, 8AM-5PM | (032) 123-4567 |
+| Health Check-up | City Health Office | Mon-Fri, 8AM-5PM | 794-0119 |
 ```
 
 #### Lists

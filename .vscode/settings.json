@@ -1,0 +1,15 @@
+{
+  "vscord.app.privacyMode.enable": false,
+  "[javascript][typescript][javascriptreact][typescriptreact][html][css][json][jsonc][vue][astro]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "biomejs.biome",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports.biome": "explicit",
+      "source.fixAll.biome": "explicit"
+    },
+    "editor.indentSize": 2
+  },
+  "prettier.enable": false,
+  "eslint.enable": false,
+  "biome.enabled": true
+}

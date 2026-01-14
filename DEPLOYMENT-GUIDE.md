@@ -41,18 +41,18 @@ In your Vercel project dashboard:
 2. **Add the following variables:**
 
 ```env
-VITE_GOVERNMENT_NAME=Your City/Municipality Name
+VITE_GOVERNMENT_NAME=Municipality of Plaridel
 VITE_GOVERNMENT_TYPE=City
-VITE_REGION=Region VII
-VITE_PROVINCE=Cebu
+VITE_REGION=Region III
+VITE_PROVINCE=Bulacan
 VITE_WEBSITE_URL=https://your-project.vercel.app
-VITE_CONTACT_EMAIL=info@your-city.gov.ph
-VITE_CONTACT_PHONE=(032) 123-4567
+VITE_CONTACT_EMAIL=info@plaridelbulacanlgu.ph/
+VITE_CONTACT_PHONE=794-0119
 VITE_FACEBOOK_URL=https://facebook.com/your-government
 VITE_TWITTER_URL=https://twitter.com/your-government
 VITE_INSTAGRAM_URL=https://instagram.com/your-government
 VITE_YOUTUBE_URL=https://youtube.com/your-government
-VITE_SITE_DESCRIPTION=Official website of Your City/Municipality
+VITE_SITE_DESCRIPTION=Official website of Municipality of Plaridel/Municipality
 VITE_SITE_KEYWORDS=government, local government, services, your city
 ```
 
@@ -65,7 +65,7 @@ VITE_SITE_KEYWORDS=government, local government, services, your city
 ### Step 5: Custom Domain (Optional)
 
 1. **Go to Settings → Domains**
-2. **Add your custom domain** (e.g., `your-city.gov.ph`)
+2. **Add your custom domain** (e.g., `plaridelbulacanlgu.ph/`)
 3. **Follow DNS configuration instructions**
 4. **Enable SSL certificate** (automatic with Vercel)
 
@@ -179,27 +179,27 @@ npm run build
 
 ```env
 # .env.local
-VITE_GOVERNMENT_NAME=Your City (Development)
+VITE_GOVERNMENT_NAME=Municipality of Plaridel (Development)
 VITE_WEBSITE_URL=http://localhost:5173
-VITE_CONTACT_EMAIL=dev@your-city.gov.ph
+VITE_CONTACT_EMAIL=dev@plaridelbulacanlgu.ph/
 ```
 
 ### Staging Environment
 
 ```env
 # .env.staging
-VITE_GOVERNMENT_NAME=Your City (Staging)
-VITE_WEBSITE_URL=https://staging.your-city.gov.ph
-VITE_CONTACT_EMAIL=staging@your-city.gov.ph
+VITE_GOVERNMENT_NAME=Municipality of Plaridel (Staging)
+VITE_WEBSITE_URL=https://staging.plaridelbulacanlgu.ph/
+VITE_CONTACT_EMAIL=staging@plaridelbulacanlgu.ph/
 ```
 
 ### Production Environment
 
 ```env
 # .env.production
-VITE_GOVERNMENT_NAME=Your City
-VITE_WEBSITE_URL=https://your-city.gov.ph
-VITE_CONTACT_EMAIL=info@your-city.gov.ph
+VITE_GOVERNMENT_NAME=Municipality of Plaridel
+VITE_WEBSITE_URL=https://plaridelbulacanlgu.ph/
+VITE_CONTACT_EMAIL=info@plaridelbulacanlgu.ph/
 ```
 
 ## 🛡️ Security Considerations
